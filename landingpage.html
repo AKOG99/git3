@@ -44,5 +44,70 @@
         </div>
         <div>
             <br>
+            <h1 style="color: red;">Tus datos personales</h1>
+            <form
+            <!-- Tratamiento -->
+            <div class="mb-3">
+                <label for="" class="form-label"><b>Tratamiento: *</b></label>
+                    <select class="form-select" aria-label="Default select example" id="tratamiento" name="tratamiento" required>
+                        <option selected>Por favor, elige</option>
+                    </select>
+            </div> 
+            <!--Nombre-->
+            <div class="mb-3">
+                <label for="" class="form-label"><b>Nombre: *</b></label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ana Karen" name="nombre" required>
+            </div>
+            <!--Apellidos: *-->
+            <div class="mb-3">
+                <label for="" class="form-label"><b>Apellidos: *</b></label>
+                    <input type="text" class="form-control" id="apellidos" placeholder="Ortiz Galaviz" name="apellidos" required>
+            </div>
+            <!--Fecha de nacimiento: *-->
+            <div class="mb-3">
+                <label for="" class="form-label"><b>Fecha de nacimiento: *</b></label>
+                    <input type="date" class="form-control" id="fecha" name="apellidos" required>
+            </div>
+            <p>Elige <b>Tus datos de acceso</b>, para oider acceder en futuras compras a dress-for-less. 
+            <b>Escribe tu email y elige una clave de acceso</b>(Mínimo 6 caracteres, caracteres especiales no permitidos).</p>
+            <!--Email: *-->
+            <div class="mb-3">
+                <label for="" class="form-label"><b>Email: *</b></label>
+                    <input type="email" class="form-control" id="email" placeholder="karen-gala@hotmail.com" name="email" required>
+            </div>
+            <!--Email: *-->
+            <div class="mb-3">
+                <label for="" class="form-label"><b>Repetir email: *</b></label>
+                    <input type="email" class="form-control" id="email" placeholder="karen-gala@hotmail.com" name="email" required>
+            </div>
+            <!--Calve de acceso: *-->
+            <div class="mb-3">
+                <label for="" class="form-label"><b>Clave de acceso: *</b></label>
+                <p>(mínimo 6 carácteres)</p>
+                    <input type="text" maxlength="6" class="form-control" id="ass" placeholder="***********" name="pass" required>
+            </div>
+            <!--Repetir clave: *-->
+            <div class="mb-3">
+                <label for="" class="form-label"><b>Repetir clave: *</b></label>
+                <p>(mínimo 6 carácteres)</p>
+                    <input type="text" maxlength="6" class="form-control" id="ass" placeholder="***********" name="pass" required>
+            </div>
+            <!-- Idioma -->
+            <div class="mb-3">
+                <label for="" class="form-label"><b>Idioma: *</b></label>
+                    <select class="form-select" aria-label="Default select example" id="tratamiento" name="tratamiento" required>
+                        <option selected>Español</option>
+                    </select>
+            </div> 
+            <br>
+            <p>Puedes darte de baja de nuestro boletin en todo momentos enviándonos
+                un email a service@dress-for-less.as
+            </p>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-lg" type="submit" style="background-color: black; color: #FDFEFE;">
+                    Entrar
+                </button>
+            </div>
+        </form>
 </body>
 </html>
