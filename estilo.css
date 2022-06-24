@@ -1,0 +1,11 @@
+.cajas{
+    width: calc(33% - 40px);
+    margin: 20px;
+    height: auto;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+}
+ .con-cajas{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
