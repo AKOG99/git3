@@ -1,3 +1,6 @@
+.body{
+    margin: 10em;
+}
 .cajas{
     width: calc(33% - 40px);
     margin: 20px;

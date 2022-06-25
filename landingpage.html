@@ -12,102 +12,109 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-              Chica linda
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Tienda</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Oferta</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Atención al cliente</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Distribuidores</a>
-                  </li>
-                </ul>
-              </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            Chica linda
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="catalogo.html">Tienda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="landingpage.html">Registro</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Atención al cliente</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Distribuidores</a>
+                </li>
+              </ul>
             </div>
-          </nav> 
-        </div>
-        <div>
-            <br>
-            <h1 style="color: red;">Tus datos personales</h1>
-            <form
-            <!-- Tratamiento -->
+          </div>
+        </nav> 
+      </div>
+      <div>
+        <br><br>
+        <center>
+        <h1 style="color: red;">Tus datos personales</h1>
+        </center>
+    <div class="container">
+        <form method="POST" autocomplete="off">
+            <!-- Tratamiendo -->
             <div class="mb-3">
-                <label for="" class="form-label"><b>Tratamiento: *</b></label>
-                    <select class="form-select" aria-label="Default select example" id="tratamiento" name="tratamiento" required>
-                        <option selected>Por favor, elige</option>
-                    </select>
-            </div> 
-            <!--Nombre-->
-            <div class="mb-3">
-                <label for="" class="form-label"><b>Nombre: *</b></label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Ana Karen" name="nombre" required>
-            </div>
-            <!--Apellidos: *-->
-            <div class="mb-3">
-                <label for="" class="form-label"><b>Apellidos: *</b></label>
-                    <input type="text" class="form-control" id="apellidos" placeholder="Ortiz Galaviz" name="apellidos" required>
-            </div>
-            <!--Fecha de nacimiento: *-->
-            <div class="mb-3">
-                <label for="" class="form-label"><b>Fecha de nacimiento: *</b></label>
-                    <input type="date" class="form-control" id="fecha" name="apellidos" required>
-            </div>
-            <p>Elige <b>Tus datos de acceso</b>, para oider acceder en futuras compras a dress-for-less. 
-            <b>Escribe tu email y elige una clave de acceso</b>(Mínimo 6 caracteres, caracteres especiales no permitidos).</p>
-            <!--Email: *-->
-            <div class="mb-3">
-                <label for="" class="form-label"><b>Email: *</b></label>
-                    <input type="email" class="form-control" id="email" placeholder="karen-gala@hotmail.com" name="email" required>
-            </div>
-            <!--Email: *-->
-            <div class="mb-3">
-                <label for="" class="form-label"><b>Repetir email: *</b></label>
-                    <input type="email" class="form-control" id="email" placeholder="karen-gala@hotmail.com" name="email" required>
-            </div>
-            <!--Calve de acceso: *-->
-            <div class="mb-3">
-                <label for="" class="form-label"><b>Clave de acceso: *</b></label>
-                <p>(mínimo 6 carácteres)</p>
-                    <input type="text" maxlength="6" class="form-control" id="ass" placeholder="***********" name="pass" required>
-            </div>
-            <!--Repetir clave: *-->
-            <div class="mb-3">
-                <label for="" class="form-label"><b>Repetir clave: *</b></label>
-                <p>(mínimo 6 carácteres)</p>
-                    <input type="text" maxlength="6" class="form-control" id="ass" placeholder="***********" name="pass" required>
-            </div>
-            <!-- Idioma -->
-            <div class="mb-3">
-                <label for="" class="form-label"><b>Idioma: *</b></label>
-                    <select class="form-select" aria-label="Default select example" id="tratamiento" name="tratamiento" required>
-                        <option selected>Español</option>
-                    </select>
-            </div> 
-            <br>
-            <p>Puedes darte de baja de nuestro boletin en todo momentos enviándonos
-                un email a service@dress-for-less.as
-            </p>
+              <label for="" class="form-label"><b>Tratamiento: *</b></label>
+                  <select class="form-select" aria-label="Default select example" id="tratamiento" name="tratamiento" required>
+                      <option selected>Por favor, elige</option>
+                  </select>
+          </div> 
+          <!--Nombre-->
+          <div class="mb-3">
+              <label for="" class="form-label"><b>Nombre: *</b></label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Ana Karen" name="nombre" required>
+          </div>
+          <!--Apellidos: *-->
+          <div class="mb-3">
+              <label for="" class="form-label"><b>Apellidos: *</b></label>
+                  <input type="text" class="form-control" id="apellidos" placeholder="Ortiz Galaviz" name="apellidos" required>
+          </div>
+          <!--Fecha de nacimiento: *-->
+          <div class="mb-3">
+              <label for="" class="form-label"><b>Fecha de nacimiento: *</b></label>
+                  <input type="date" class="form-control" id="fecha" name="apellidos" required>
+          </div>
+          <p>Elige <b>Tus datos de acceso</b>, para poder acceder en futuras compras a dress-for-less. 
+          <b>Escribe tu email y elige una clave de acceso</b>(Mínimo 6 caracteres, caracteres especiales no permitidos).</p>
+          <!--Email: *-->
+          <div class="mb-3">
+              <label for="" class="form-label"><b>Email: *</b></label>
+                  <input type="email" class="form-control" id="email" placeholder="karen-gala@hotmail.com" name="email" required>
+          </div>
+          <!--Email2: *-->
+          <div class="mb-3">
+              <label for="" class="form-label"><b>Repetir email: *</b></label>
+                  <input type="email" class="form-control" id="email" placeholder="karen-gala@hotmail.com" name="email" required>
+          </div>
+          <!--Calve de acceso: *-->
+          <div class="mb-3">
+              <label for="" class="form-label"><b>Clave de acceso: *</b></label>
+              <p>(mínimo 6 carácteres)</p>
+                  <input type="text" maxlength="6" class="form-control" id="ass" placeholder="***********" name="pass" required>
+          </div>
+          <!--Repetir clave: *-->
+          <div class="mb-3">
+              <label for="" class="form-label"><b>Repetir clave: *</b></label>
+              <p>(mínimo 6 carácteres)</p>
+                  <input type="text" maxlength="6" class="form-control" id="ass" placeholder="***********" name="pass" required>
+          </div>
+          <!-- Idioma -->
+          <div class="mb-3">
+              <label for="" class="form-label"><b>Idioma: *</b></label>
+                  <select class="form-select" aria-label="Default select example" id="tratamiento" name="tratamiento" required>
+                      <option selected>Español</option>
+                  </select>
+          </div> 
+          <br>
+          <p>Puedes darte de baja de nuestro boletin en todo momentos enviándonos
+              un email a service@dress-for-less.as
+          </p>
+
             <div class="d-grid gap-2 col-6 mx-auto">
                 <button class="btn btn-lg" type="submit" style="background-color: black; color: #FDFEFE;">
-                    Entrar
+                    <i class="fa-solid fa-floppy-disk"></i> Guardar
                 </button>
             </div>
+
         </form>
+        <br>
+        <br>
 </body>
 </html>
